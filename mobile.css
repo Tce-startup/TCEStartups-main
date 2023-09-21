@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url('./fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('./fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat-Bold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "JetbrainsMono";
+    src: url('./fonts/JetBrainsMono-Regular.ttf');
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    header {
+        display: block !important;
+    }
+
+    .mainpagearticle, .aboutpagehead, .aboutpagehead2, .aph2, .aph3, .ac_productheader, .learningheader {
+        padding: 30px 20px !important;
+    }
+
+    .mpahead {
+        font-size: 30px !important;
+    }
+
+    .learninghead {
+        font-size: 20px !important;
+    }
+
+    .learninghead2 {
+        margin-top: 30px !important;
+    }
+
+    .learninghead2, .learninghead3 {
+        margin: 0px;
+        text-align: center;
+        font-size: 25px !important;
+    }
+
+    .linkssection {
+        margin: 20px;
+    }
+
+    .linkk, .linksecs, .normallink {
+        font-size: 16px !important;
+    }
+
+    .linksecs > a {
+        font-size: 16px !important;
+    }
+
+    .learningtext {
+        margin: 20px 15px;
+        font-size: 14px !important;
+    }
+
+    .aphhead, .aphhead2, .aphbig {
+        font-size: 20px !important;
+    }
+
+    .mpatxt, .aphtxt {
+        font-size: 16px !important;
+    }
+
+    .aphtxt {
+        font-size: 13px !important;
+    }
+
+    .ihead {
+        font-size: 20px;
+    }
+
+    .projects {
+        margin: 20px !important;
+        display: block !important;
+    }
+
+    .solutioninfo, .green_box, .red_box {
+        margin: 30px !important;
+    }
+
+    .desktop_flex {
+        display: block !important;
+    }
+
+    .numbergrid {
+        display: block !important;
+    }
+
+    .projectsection {
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+    .numbernum {
+        font-size: 30px !important;
+    }
+    
+    .numbertext {
+        font-size: 20px !important;
+    }
+}
